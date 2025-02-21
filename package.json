@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "start": "npm install && node --experimental-strip-types --experimental-sqlite ./src/server.js"،
+   "start": "npm install && node --experimental-strip-types --experimental-sqlite ./src/server.js",
     "dev": "node --watch --env-file=.env --experimental-strip-types --experimental-sqlite ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
