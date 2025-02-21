@@ -1,0 +1,24 @@
+### GET 
+GET http://localhost:3000
+
+
+
+### POST REGISTER /auth/register
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "username":"asfddfsadf",
+    "password":"sadasdasda"
+}
+
+
+### POST LOGIN /auth/login
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "username":"asfddfsadf",
+    "password":"sadasdasda"
+}
+
